@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Art</title>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+
+</head>
+<body>
+
+<div class="reveal">
+
+  <div class="slides">
+    <section data-transition="fade" data-auto-animate>
+      <p class="r-fit-text first-page"></p>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What word starts with "e",</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What word starts with "e", </p>
+      <p>ends with "e",</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What word starts with "e", </p>
+      <p>ends with "e",</p>
+      <p>and only has one letter?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What word starts with "e", </p>
+      <p>ends with "e",</p>
+      <p>and only has one letter?</p>
+      <h1>Envelope.</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I know a word.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I know a word.</p>
+      <p>Six letters it contains.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I know a word.</p>
+      <p>Six letters it contains.</p>
+      <p>Take away one,</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I know a word.</p>
+      <p>Six letters it contains.</p>
+      <p>Take away one,</p>
+      <p>and twelve is what it remains.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I know a word.</p>
+      <p>Six letters it contains.</p>
+      <p>Take away one,</p>
+      <p>and twelve is what it remains.</p>
+      <h1>Dozens</h1>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I know a word.</p>
+      <p>Six letters it contains.</p>
+      <p>Take away one,</p>
+      <p>and twelve is what it remains.</p>
+      <h1>Dozens</h1>
+      <p><small><em>(Take away the 's', and you're left with just 'dozen')
+          </em></small></p>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>3. A man walks into a bar and orders a glass of water.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. A man walks into a bar and orders a glass of water.</p>
+      <p>The bartender points a gun at him and the man thanks him and leaves.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. A man walks into a bar and orders a glass of water.</p>
+      <p>The bartender points a gun at him and the man thanks him and leaves.</p>
+      <p>Why did the man thank the bartender?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. A man walks into a bar and orders a glass of water.</p>
+      <p>The bartender points a gun at him and the man thanks him and leaves.</p>
+      <p>Why did the man thank the bartender?</p>
+      <p> <em>- The man had the hiccups. By scaring the man the bartender cured him.</em></p>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What can run..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What can run.. </p>
+      <p>..but can’t walk?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What can run.. </p>
+      <p>..but can’t walk?</p>
+      <p> <em>- A drop of water.</em></p>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What does this mean? </p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What does this mean? </p>
+      <p>“I RIGHT I”</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What does this mean? </p>
+      <p>“I RIGHT I”</p>
+      <p> <em>- Right between the eyes.</em></p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>- End</p>
+    </section>
+  </div>
+</div>
+
+	
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script>
+		Reveal.initialize({
+		  center: true,
+		  hash: true,
+		  plugins: [ RevealHighlight ],
+		  progress: false,
+		  controls: false
+		});
+
+		var thisDay = moment().format('dddd');
+		var thisTime = moment().format('LL');
+
+		document.querySelector('.first-page').innerHTML = thisDay +' ' + thisTime;
+	</script>	
+</body>
+</html>
