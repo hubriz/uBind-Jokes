@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Art - uBind</title>
+
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+
+</head>
+<body>
+
+<div class="reveal">
+
+  <div class="slides">
+    <section data-transition="fade" data-auto-animate>
+      <p class="r-fit-text first-page"></p>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What has ten letters..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What has ten letters..</p>
+      <p>..and starts with gas?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What has ten letters..</p>
+      <p>..and starts with gas?</p>
+      <h1>Automobile</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>2. What goes up..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. What goes up..</p>
+      <p>..but never comes down?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. What goes up..</p>
+      <p>..but never comes down?</p>
+      <h1>Your age</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What five-letter word..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What five-letter word..</p>
+      <p>..stays the same when you take away..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What five-letter word..</p>
+      <p>..stays the same when you take away..</p>
+      <p>..the first, third, and last letter?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What five-letter word..</p>
+      <p>..stays the same when you take away..</p>
+      <p>..the first, third, and last letter?</p>
+      <h1>Empty</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You always find me in the past.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You always find me in the past.</p>
+      <p>I can be created in the present.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You always find me in the past.</p>
+      <p>I can be created in the present.</p>
+      <p>but the future can never taint me.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You always find me in the past.</p>
+      <p>I can be created in the present.</p>
+      <p>but the future can never taint me.</p>
+      <p>What am I?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You always find me in the past.</p>
+      <p>I can be created in the present.</p>
+      <p>but the future can never taint me.</p>
+      <p>What am I?</p>
+      <h1>History</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What has thirteen hearts..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What has thirteen hearts..</p>
+      <p>..but no other organs?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What has thirteen hearts..</p>
+      <p>..but no other organs?</p>
+      <h1>A deck of cards</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+     <p>END.</p>
+    </section>
+
+  </div>
+</div>
+
+	
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script>
+		Reveal.initialize({
+		  center: true,
+		  hash: true,
+		  plugins: [ RevealHighlight ],
+		  progress: false,
+		  controls: false
+		});
+
+		var thisDay = moment().format('dddd');
+		var thisTime = moment().format('LL');
+
+		document.querySelector('.first-page').innerHTML = thisDay +' ' + thisTime;
+	</script>	
+</body>
+</html>
