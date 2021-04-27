@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Art - uBind</title>
+
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+
+</head>
+<body>
+
+<div class="reveal">
+
+  <div class="slides">
+    <section data-transition="fade" data-auto-animate>
+      <p class="r-fit-text first-page"></p>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>1. How is 7 different..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. How is 7 different..</p>
+      <p>..from the rest of the numbers from 1-10?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. How is 7 different..</p>
+      <p>..from the rest of the numbers from 1-10?</p>
+      <h1>7(seven) is the only one with two syllables.</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>2. How do you make the number one..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. How do you make the number one..</p>
+      <p>..disappear by adding to it?</p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>2. How do you make the number one..</p>
+      <p>..disappear by adding to it?</p>
+      <h1>Add the letter 'G' and it becomes Gone.</h1>
+    </section>        
+
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What’s black when you get it,</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What’s black when you get it,</p>
+      <p>red when you use it,</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What’s black when you get it,</p>
+      <p>red when you use it,</p>
+      <p>and white when you’re all through with it?</p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What’s black when you get it,</p>
+      <p>red when you use it,</p>
+      <p>and white when you’re all through with it?</p>
+      <h1>Charcoal</h1>
+    </section>  
+
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What can you keep..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What can you keep..</p>
+      <p>..after giving it to someone?</p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What can you keep..</p>
+      <p>..after giving it to someone?</p>
+      <h1>Your word</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>5. Look at the picture..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>5. Look at the picture..</p>
+      <p><img src="img/goovil.png" alt="Goovil" width="369" height="274" /></p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>5. Look at the picture..</p>
+      <p><img src="img/goovil.png" alt="Goovil" width="369" height="274" /></p>
+      <h1>The black part is the word "good". However, inside the black part, you will find white spaces in which you will see the word “evil”.</h1>
+    </section>              
+
+    <section data-transition="fade" data-auto-animate>
+     <p>END.</p>
+    </section>
+
+  </div>
+</div>
+
+	
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script>
+		Reveal.initialize({
+		  center: true,
+		  hash: true,
+		  plugins: [ RevealHighlight ],
+		  progress: false,
+		  controls: false
+		});
+
+		var thisDay = moment().format('dddd');
+		var thisTime = moment().format('LL');
+
+		document.querySelector('.first-page').innerHTML = thisDay +' ' + thisTime;
+	</script>	
+</body>
+</html>
