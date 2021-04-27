@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Art - uBind</title>
+
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+
+</head>
+<body>
+
+<div class="reveal">
+
+  <div class="slides">
+    <section data-transition="fade" data-auto-animate>
+      <p class="r-fit-text first-page"></p>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What is always in front of you..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What is always in front of you..</p>
+      <p>..but can’t be seen?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What is always in front of you..</p>
+      <p>..but can’t be seen?</p>
+      <h1>The future</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>2.I have a face and two hands,</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2.I have a face and two hands,</p>
+      <p>but no arms or legs.</p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>2.I have a face and two hands,</p>
+      <p>but no arms or legs.</p>
+      <p>What am I?</p>
+    </section>      
+    <section data-transition="fade" data-auto-animate>
+      <p>2.I have a face and two hands,</p>
+      <p>but no arms or legs.</p>
+      <p>What am I?</p>
+      <h1>A clock</h1>
+    </section>        
+
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What is used by others frequently,</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What is used by others frequently,</p>
+      <p>but belongs to you?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What is used by others frequently,</p>
+      <p>but belongs to you?</p>
+      <h1>Your name</h1>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>3. What’s black when you get it,</p>
+      <p>red when you use it,</p>
+      <p>and white when you’re all through with it?</p>
+      <h1>Charcoal</h1>
+    </section>  
+
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What question can you..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What question can you..</p>
+      <p>honestly never answer “yes” to?</p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>4. What question can you..</p>
+      <p>honestly never answer “yes” to?</p>
+      <h1>Are you sleeping?</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What is so delicate..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What is so delicate..</p>
+      <p>..that even mentioning it breaks it?</p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>5. What is so delicate..</p>
+      <p>..that even mentioning it breaks it?</p>
+      <h1>Silence</h1>
+    </section>              
+
+    <section data-transition="fade" data-auto-animate>
+     <p>END.</p>
+    </section>
+
+  </div>
+</div>
+
+	
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script>
+		Reveal.initialize({
+		  center: true,
+		  hash: true,
+		  plugins: [ RevealHighlight ],
+		  progress: false,
+		  controls: false
+		});
+
+		var thisDay = moment().format('dddd');
+		var thisTime = moment().format('LL');
+
+		document.querySelector('.first-page').innerHTML = thisDay +' ' + thisTime;
+	</script>	
+</body>
+</html>

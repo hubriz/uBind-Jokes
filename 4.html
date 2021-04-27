@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Art - uBind</title>
+
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+
+</head>
+<body>
+
+<div class="reveal">
+
+  <div class="slides">
+    <section data-transition="fade" data-auto-animate>
+      <p class="r-fit-text first-page"></p>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What is that which,</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What is that which,</p>
+      <p>though black itself,</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What is that which,</p>
+      <p>though black itself,</p>
+      <p>enlightens the world without burning?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>1. What is that which,</p>
+      <p>though black itself,</p>
+      <p>enlightens the world without burning?</p>
+      <h1>Ink</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I pass before the sun,</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I pass before the sun,</p>
+      <p>yet make no shadow.</p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I pass before the sun,</p>
+      <p>yet make no shadow.</p>
+      <p>What am I?</p>
+    </section>      
+    <section data-transition="fade" data-auto-animate>
+      <p>2. I pass before the sun,</p>
+      <p>yet make no shadow.</p>
+      <p>What am I?</p>
+      <h1>Wind</h1>
+    </section>        
+
+    <section data-transition="fade" data-auto-animate>
+      <p>3. Why didn’t Adam and Eve have a date? </p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>3. Why didn’t Adam and Eve have a date? </p>
+      <h1>They preferred to eat apples, not dates</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You can drop me from the tallest building..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You can drop me from the tallest building..</p>
+      <p>and I'll be fine,</p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You can drop me from the tallest building..</p>
+      <p>and I'll be fine,</p>
+      <p>but if you drop me in water I die.</p>
+    </section>   
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You can drop me from the tallest building..</p>
+      <p>and I'll be fine,</p>
+      <p>but if you drop me in water I die.</p>
+      <p>What am I?</p>
+    </section>   
+    <section data-transition="fade" data-auto-animate>
+      <p>4. You can drop me from the tallest building..</p>
+      <p>and I'll be fine,</p>
+      <p>but if you drop me in water I die.</p>
+      <p>What am I?</p>
+      <h1>Paper</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>5. How many of each species..</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>5. How many of each species..</p>
+      <p>..did Moses take on the ark with him? </p>
+    </section>    
+    <section data-transition="fade" data-auto-animate>
+      <p>5. How many of each species..</p>
+      <p>..did Moses take on the ark with him? </p>p>
+      <h1>None. Moses wasn't on tha ark Noah was.</h1>
+    </section>              
+
+    <section data-transition="fade" data-auto-animate>
+     <p>END.</p>
+    </section>
+
+  </div>
+</div>
+
+	
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script>
+		Reveal.initialize({
+		  center: true,
+		  hash: true,
+		  plugins: [ RevealHighlight ],
+		  progress: false,
+		  controls: false
+		});
+
+		var thisDay = moment().format('dddd');
+		var thisTime = moment().format('LL');
+
+		document.querySelector('.first-page').innerHTML = thisDay +' ' + thisTime;
+	</script>	
+</body>
+</html>
