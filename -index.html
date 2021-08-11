@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Art - uBind</title>
+
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+
+</head>
+<body>
+
+<div class="reveal">
+
+  <div class="slides">
+    <section data-transition="fade" data-auto-animate>
+      <p class="r-fit-text first-page"></p>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>It run every time but does not feel tired</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>It run every time but does not feel tired</p>
+      <p>it has a bed but does not sleep and</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>It run every time but does not feel tired</p>
+      <p>it has a bed but does not sleep and</p>
+      <p>it has a bank where there is no money.</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>It run every time but does not feel tired</p>
+      <p>it has a bed but does not sleep and</p>
+      <p>it has a bank where there is no money.</p>
+      <p>What is it?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>It run every time but does not feel tired</p>
+      <p>it has a bed but does not sleep and</p>
+      <p>it has a bank where there is no money.</p>
+      <p>What is it?</p>
+      <h1>A river</h1>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>Re-arrange the letters</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>Re-arrange the letters</p>
+      <p>O O U S W T D N E J R to spell just one word</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>Re-arrange the letters</p>
+      <p>O O U S W T D N E J R to spell just one word</p>
+      <h1>Just one word</h1>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>What has many keys</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>What has many keys</p>
+      <p>but can't open any doors?</p>
+    </section>    
+		<section data-transition="fade" data-auto-animate>
+      <p>What has many keys</p>
+      <p>but can't open any doors?</p>
+      <h1>A Piano</h1>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>I am a fruit.</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>I am a fruit.</p>
+      <p>Remove my first letter, it's a crime.</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>I am a fruit.</p>
+      <p>Remove my first letter, it's a crime.</p>
+      <p>Remove my first and last letter, it's a kind of music.</p>
+    </section>  
+    <section data-transition="fade" data-auto-animate>
+      <p>I am a fruit.</p>
+      <p>Remove my first letter, it's a crime.</p>
+      <p>Remove my first and last letter, it's a kind of music.</p>
+      <p>What do you think I am?</p>
+    </section>  
+    <section data-transition="fade" data-auto-animate>
+      <p>I am a fruit.</p>
+      <p>Remove my first letter, it's a crime.</p>
+      <p>Remove my first and last letter, it's a kind of music.</p>
+      <p>What do you think I am?</p>
+      <h1>Grape</h1>
+    </section>  
+
+		<section data-transition="fade" data-auto-animate>
+      <p>A hundred feet in the air,</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>A hundred feet in the air,</p>
+      <p>but it's back is on the ground.</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>A hundred feet in the air,</p>
+      <p>but it's back is on the ground.</p>
+      <p>What is it?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>A hundred feet in the air,</p>
+      <p>but it's back is on the ground.</p>
+      <p>What is it?</p>
+      <h1>A centipede that turned upside down</h1>
+    </section>
+  
+    <section data-transition="fade" data-auto-animate>
+     <p>END.</p>
+    </section>
+
+  </div>
+</div>
+
+
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script>
+		Reveal.initialize({
+		  center: true,
+		  hash: true,
+		  plugins: [ RevealHighlight ],
+		  progress: false,
+		  controls: false
+		});
+
+		var thisDay = moment().format('dddd');
+		var thisTime = moment().format('LL');
+
+		document.querySelector('.first-page').innerHTML = thisDay +' ' + thisTime;
+	</script>
+</body>
+</html>
