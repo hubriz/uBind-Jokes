@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Art - uBind</title>
+
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+
+</head>
+<body>
+
+<div class="reveal">
+
+  <div class="slides">
+    <section data-transition="fade" data-auto-animate>
+      <p class="r-fit-text first-page"></p>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>What is round on both ends</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>What is round on both ends</p>
+      <p>and hi in the middle?</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>What is round on both ends</p>
+      <p>and hi in the middle?</p>
+      <h1>Ohio - The two 'o's are round with 'hi' in the middle.</h1>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>What does this say?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>What does this say?</p>
+      <p>Esgg sgeg gegs gsge.</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>What does this say?</p>
+      <p>Esgg sgeg gegs gsge.</p>
+      <h1>Scrambled eggs.</h1>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>What is the longest word</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>What is the longest word</p>
+      <p>in the dictionary?</p>
+    </section>    
+		<section data-transition="fade" data-auto-animate>
+      <p>What is the longest word</p>
+      <p>in the dictionary?</p>
+      <h1>Smiles, because there is a mile between each "s"</h1>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>A boy was born in 1955.</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>A boy was born in 1955.</p>
+      <p>He just had his 18th birthday today.</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>A boy was born in 1955.</p>
+      <p>He just had his 18th birthday today.</p>
+      <p>How did that happen?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>A boy was born in 1955.</p>
+      <p>He just had his 18th birthday today.</p>
+      <p>How did that happen?</p>
+      <h1>1955 is not the year he was born. <small>It was the hospital room he was born in</small></h1>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>It has only two bones,</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>It has only two bones,</p>
+      <p>but there are 1000s of ribs.</p>
+    </section>
+		<section data-transition="fade" data-auto-animate>
+      <p>It has only two bones,</p>
+      <p>but there are 1000s of ribs.</p>
+      <p>What is that? </p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>It has only two bones,</p>
+      <p>but there are 1000s of ribs.</p>
+      <p>What is that? </p>
+      <h1>Railway track</h1>
+    </section>
+  
+    <section data-transition="fade" data-auto-animate>
+     <p>END.</p>
+    </section>
+
+  </div>
+</div>
+
+
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script>
+		Reveal.initialize({
+		  center: true,
+		  hash: true,
+		  plugins: [ RevealHighlight ],
+		  progress: false,
+		  controls: false
+		});
+
+		var thisDay = moment().format('dddd');
+		var thisTime = moment().format('LL');
+
+		document.querySelector('.first-page').innerHTML = thisDay +' ' + thisTime;
+	</script>
+</body>
+</html>
