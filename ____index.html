@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Art - uBind</title>
+
+
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+
+</head>
+<body>
+
+<div class="reveal">
+
+  <div class="slides">
+    <section data-transition="fade" data-auto-animate>
+      <p class="r-fit-text first-page"></p>
+    </section>
+
+		<section data-transition="fade" data-auto-animate>
+      <p>What do you call a fake noodle?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>What do you call a fake noodle?</p>
+      <h1>An im-pasta.</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>Why did the banana go to the hospital?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>Why did the banana go to the hospital?</p>
+      <h1>He was peeling really bad.</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>Why didn&rsquo;t the teddy bear eat dessert?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>Why didn&rsquo;t the teddy bear eat dessert?</p>
+      <h1>He was stuffed.</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>What do you call an attractive fruit?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>What do you call an attractive fruit?</p>
+      <h1>A fine-apple.</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>What time is it when you have to go to the dentist?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>What time is it when you have to go to the dentist?</p>
+      <h1>Tooth hurty!</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>What are the strongest days of the week?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>What are the strongest days of the week?</p>
+      <h1>Saturday and Sunday. All the others are weekdays.</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+      <p>Why do people fall asleep in the bathroom?</p>
+    </section>
+    <section data-transition="fade" data-auto-animate>
+      <p>Why do people fall asleep in the bathroom?</p>
+      <h1>Because it’s also called a restroom!</h1>
+    </section>
+
+    <section data-transition="fade" data-auto-animate>
+     <p>END.</p>
+    </section>
+
+  </div>
+</div>
+
+
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+	<script>
+		Reveal.initialize({
+		  center: true,
+		  hash: true,
+		  plugins: [ RevealHighlight ],
+		  progress: false,
+		  controls: false
+		});
+
+		var thisDay = moment().format('dddd');
+		var thisTime = moment().format('LL');
+
+		document.querySelector('.first-page').innerHTML = thisDay +' ' + thisTime;
+	</script>
+</body>
+</html>
